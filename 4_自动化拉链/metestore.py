@@ -12,8 +12,8 @@ import pandas as pd
 class Metestore:
     def __init__(self):
         try:
-            self.conn = psycopg2.connect(database='hive3', user='hive3', password='ChSqFxS5wt', host='10.136.202.3',
-                                         port=7432)
+            self.conn = psycopg2.connect(database='', user='', password='', host='',
+                                         port=)
         except Exception as e:
             print(e)
         else:
