@@ -1,8 +1,5 @@
 # coding=utf-8
-'''数据库：hive3
-用户名：hive3
-密码：ChSqFxS5wt
-端口：7432
+''' 
 '''
 
 import psycopg2
